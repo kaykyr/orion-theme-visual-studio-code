@@ -1,54 +1,54 @@
 $schema: vscode://schemas/color-theme
-name: Dracula
-author: Zeno Rocha
+name: Orion
+author: Kayky Ramos
 maintainers:
-  - Derek P Sifford <dereksifford@gmail.com>
-semanticClass: theme.dracula
+  - Kayky Ramos <kayky@me.com>
+semanticClass: theme.orion
 semanticHighlighting: true
-dracula:
+orion:
   base:
-    - &BG        '#282A36'
-    - &FG        '#F8F8F2'
-    - &SELECTION '#44475A'
-    - &COMMENT   '#6272A4'
-    - &CYAN      '#8BE9FD'
-    - &GREEN     '#50FA7B'
-    - &ORANGE    '#FFB86C'
-    - &PINK      '#FF79C6'
-    - &PURPLE    '#BD93F9'
-    - &RED       '#FF5555'
-    - &YELLOW    '#F1FA8C'
+    - &BG        '#031325' # Code Background
+    - &FG        '#D4E8FF'
+    - &SELECTION '#0076A2'
+    - &COMMENT   '#72777d'
+    - &CYAN      '#00D1FF'
+    - &GREEN     '#3FFF75'
+    - &ORANGE    '#00D1FF'
+    - &PINK      '#00D1FF'
+    - &PURPLE    '#73C0DD'
+    - &RED       '#F24141'
+    - &YELLOW    '#FFE361'
   ansi:
-    - &COLOR0        '#21222C'
-    - &COLOR1        '#FF5555'
-    - &COLOR2        '#50FA7B'
-    - &COLOR3        '#F1FA8C'
-    - &COLOR4        '#BD93F9'
-    - &COLOR5        '#FF79C6'
-    - &COLOR6        '#8BE9FD'
-    - &COLOR7        '#F8F8F2'
-    - &COLOR8        '#6272A4'
-    - &COLOR9        '#FF6E6E'
-    - &COLOR10       '#69FF94'
-    - &COLOR11       '#FFFFA5'
-    - &COLOR12       '#D6ACFF'
-    - &COLOR13       '#FF92DF'
-    - &COLOR14       '#A4FFFF'
-    - &COLOR15       '#FFFFFF'
+    - &COLOR0        '#061A2E'
+    - &COLOR1        '#F24141'
+    - &COLOR2        '#3FFF75'
+    - &COLOR3        '#FFE361'
+    - &COLOR4        '#73C0DD'
+    - &COLOR5        '#3F7CFF'
+    - &COLOR6        '#FA00BE'
+    - &COLOR7        '#00D1FF'
+    - &COLOR8        '#6CC6FC'
+    - &COLOR9        '#F24141'
+    - &COLOR10       '#3FFF75'
+    - &COLOR11       '#FFE361'
+    - &COLOR12       '#73C0DD'
+    - &COLOR13       '#FA00BE'
+    - &COLOR14       '#6CC6FC'
+    - &COLOR15       '#00D1FF'
   brightOther:
     # Temporary (awaiting fix)
-    - &TEMP_QUOTES          '#E9F284'
-    - &TEMP_PROPERTY_QUOTES '#8BE9FE'
+    - &TEMP_QUOTES          '#FFE361'
+    - &TEMP_PROPERTY_QUOTES '#3BBCD9'
   other:
-    - &LineHighlight '#44475A75'
+    - &LineHighlight '#00366D75'
     - &NonText       '#FFFFFF1A'
     - &WHITE         '#FFFFFF'
-    - &TAB_DROP_BG   '#44475A70'
+    - &TAB_DROP_BG   '#0076A270'
     # UI Variants
-    - &BGLighter     '#424450'
-    - &BGLight       '#343746' # HSV (230   , 25.71, 27.45)
-    - &BGDark        '#21222C' # HSV (234.55, 25   , 17.25)
-    - &BGDarker      '#191A21' # HSV (234.55, 25   , 13   )
+    - &BGLighter     '#FFE361'
+    - &BGLight       '#e5e5e5' # HSV (230   , 25.71, 27.45)
+    - &BGDark        '#05192E' # Barra Explorer
+    - &BGDarker      '#061A2E' # HSV (234.55, 25   , 13   )
 
 # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
 colors:
